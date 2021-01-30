@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #3c5732;
+}
+
+h1 {
+  font-family: 'Potta One', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 8px solid black;
+  border-radius: 20%;
+  box-shadow: 0 0 20px 5px rgb(128, 110, 110); 
+}
+
+.game-over {
+  background-color:rgb(226, 112, 112);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
